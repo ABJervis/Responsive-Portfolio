@@ -221,6 +221,22 @@ body {
     border: 0 none;
   }
 
+
+
+
+/*width 768px*/
+@media screen and (max-width: 768px) {
+   .container {
+       padding: 20px;
+
+   }
+   
+    img {
+        float: left;
+        width: 50%;
+        margin-right: 20px;
+    }
+
 /*width 640*/
 @media screen and (max-width: 640px) {
 
@@ -237,4 +253,7 @@ body {
     img {
         width: 100%;
     }
+}
+
+
 }
